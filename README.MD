@@ -29,6 +29,11 @@ Collection of Tensorflow implementations of Image Classification varieties prese
   - [ConvMixer](#convmixer)
 
 ## Installation
+```
+git clone https://github.com/tinh2044/ImageClassification-TF.git
+cd ./ImageClassification-TF
+pip install -r requirements.txt
+```
 
 ## Models
 
