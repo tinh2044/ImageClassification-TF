@@ -1,0 +1,2 @@
+from models.inceptionResNet.inception_resnet_v1 import InceptionResNetV1
+from models.inceptionResNet.inception_resnet_v2 import InceptionResNetV2
