@@ -79,13 +79,23 @@ Feel free to explore other model configurations as listed below.
 📄 [Paper](https://arxiv.org/abs/1409.1556) | 💻 [Code](/models/VGG.py)
 
 <p align="center">
-  <img src="images/vgg16.webp" alt="VGG16 architecture" width="400">
+    <img alt="image" src="images/vgg16.webp"/>
 </p>
 
-**Run Example:**
+#### Authors
 
-```bash
-python train_cifar10.py --model_name VGG16 --img_size 224
+Karen Simonyan, Andrew Zisserman
+
+#### Abstract
+
+In this work we investigate the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting. Our main contribution is a thorough evaluation of networks of increasing depth using an architecture with very small (3x3) convolution filters, which shows that a significant improvement on the prior-art configurations can be achieved by pushing the depth to 16-19 weight layers. These findings were the basis of our ImageNet Challenge 2014 submission, where our team secured the first and the second places in the localization and classification tracks respectively. We also show that our representations generalize well to other datasets, where they achieve state-of-the-art results. We have made our two best-performing ConvNet models publicly available to facilitate further research on the use of deep visual representations in computer vision.
+
+[[Paper]](https://arxiv.org/abs/1409.1556) [[Code]](/models/VGG.py)
+
+#### Run Example
+
+```
+ python train.py --model_name VGG16 --img_size 224
 ```
 
 ---
@@ -327,13 +337,23 @@ python train_cifar10.py --model_name MobileNetV2 --img_size 224
 📄 [Paper](https://arxiv.org/abs/1807.11164) | 💻 [Code](/models/shuffleNet/shuffleNetV2.py)
 
 <p align="center">
-  <img src="images/shuffleNetv2.webp" alt="ShuffleNet V2" width="400">
+    <img src="images/shuffleNetv2.webp" alt="image"/>
 </p>
 
-**Run Example:**
+#### Authors
 
-```bash
-python train_cifar10.py --model_name ShuffleNetV2_1_0x --img_size 224
+Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, Jian Sun
+
+#### Abstract
+
+Currently, the neural network architecture design is mostly guided by the \emph{indirect} metric of computation complexity, i.e., FLOPs. However, the \emph{direct} metric, e.g., speed, also depends on the other factors such as memory access cost and platform characterics. Thus, this work proposes to evaluate the direct metric on the target platform, beyond only considering FLOPs. Based on a series of controlled experiments, this work derives several practical \emph{guidelines} for efficient network design. Accordingly, a new architecture is presented, called \emph{ShuffleNet V2}. Comprehensive ablation experiments verify that our model is the state-of-the-art in terms of speed and accuracy tradeoff.
+
+[[Paper]](https://arxiv.org/abs/1807.11164) [[Code]](/models/shuffleNet/shuffleNetV2.py)
+
+#### Run Example
+
+```
+ python train.py --model_name ShuffleNetV2_1_0x --img_size 224
 ```
 
 ---
